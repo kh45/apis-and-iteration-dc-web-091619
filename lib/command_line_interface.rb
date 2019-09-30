@@ -1,8 +1,13 @@
 def welcome
-  # puts out a welcome message here!
+  puts "Welcomme to the Star Wars character database!!"
 end
 
 def get_character_from_user
   puts "please enter a character name"
-  # use gets to capture the user's input. This method should return that input, downcased.
+  response = gets.chomp.downcase
+  #api = RestClient.get('http://swapi.co/api/people')
 end
+
+
+
+#api[:results][i][:name].downcase
